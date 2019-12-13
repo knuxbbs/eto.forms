@@ -4,6 +4,19 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "TH-NETII Eto.Forms.sln",
+      "command": "dotnet",
+      "args": [
+        "build"
+      ],
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
       "label": "THNETII.EtoForms.Hosting",
       "command": "dotnet",
       "args": [
